@@ -31,7 +31,7 @@ generate new community template repositories.
 1. Now add a new entry to the top of the versions list in metadata.json.
   ```json
   {
-      "versions": {
+      "versions": [
           {
               "changeNotes": "Added support for ecommerce",
               "sha": "bde5543"
@@ -41,7 +41,7 @@ generate new community template repositories.
               "changeNotes": "Initial release",
               "sha": "abc1234"
           }
-      }
+      ]
   }
   ```
 1. Commit the change to metadata.json and when the
