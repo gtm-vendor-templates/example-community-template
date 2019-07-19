@@ -22,7 +22,9 @@ generate new community template repositories.
 1.  Once your template is complete use the export feature found in the overflow
     menu.
 1.  Locate the saved file and move it into your repository.
+1.  Rename the file to `template.tpl`.
 1.  Commit and push changes to github.
+1.  Follow steps for [publishing a new version](#publishing-a-new-version-to-the-community-gallery).
 
 ## Publishing a new version to the Community Gallery
 
@@ -44,4 +46,4 @@ generate new community template repositories.
       ]
   }
   ```
-1. Commit the change to metadata.json and when the
+1. Commit the change to metadata.json and your update will appear in the gallery typically within 24 hours.
