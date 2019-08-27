@@ -30,20 +30,15 @@ generate new community template repositories.
 
 1. Locate the commit that includes the changes that you want to push. An easy way to do this is by looking at the commits page.
 1. Once you've located the commit copy the change number/sha.
-1. Now add a new entry to the top of the versions list in metadata.json.
-  ```json
-  {
-      "versions": [
-          {
-              "changeNotes": "Added support for ecommerce",
-              "sha": "bde5543"
-          },
-          // ...
-          {
-              "changeNotes": "Initial release",
-              "sha": "abc1234"
-          }
-      ]
-  }
+1. Now add a new entry to the top of the versions list in metadata.yaml.
+  ```yaml
+  versions:
+    # Add new version at the top
+    - sha: bde5543
+      changeNotes: Added support for ecommerce
+    # Older Versions
+    - sha: bde5543
+    - sha: abc1234
+      changeNotes: Initial release
   ```
-1. Commit the change to metadata.json and your update will appear in the gallery typically within 24 hours.
+1. Commit the change to metadata.yaml and your update will appear in the gallery typically within 24 hours.
