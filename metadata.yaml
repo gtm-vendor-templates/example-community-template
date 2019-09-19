@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-homepage: "www.example.com",
+homepage: "https://www.example.com",
 documentation: "https://www.example.com/documentation",
 versions:
   - sha: 123abc
