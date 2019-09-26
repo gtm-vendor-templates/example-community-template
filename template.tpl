@@ -25,6 +25,7 @@ ___INFO___
 {
   "displayName": "Example Template",
   "description": "This is an example template. For more information, visit https://developers.google.com/tag-manager/templates",
+  "categories": ["AFFILIATE_MARKETING", "ADVERTISING"],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
   "type": "TAG",
