@@ -12,8 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-homepage: "https://www.example.com",
-documentation: "https://www.example.com/documentation",
+homepage: "https://www.example.com"
+documentation: "https://www.example.com/documentation"
 versions:
   - sha: 123abc
     changeNotes: Initial Version
